@@ -1,0 +1,8 @@
+node_modules/
+dist/
+dist-zipped/
+yarn.lock
+out/
+900 out/
+favorites/
+best/
