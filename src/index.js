@@ -210,6 +210,11 @@ const sketch = ({ p5, width, height, styleWidth, styleHeight, exportFrame, play 
   graphics.colorMode(p5.HSB);
   p5.scale(canvasScale);
   graphics.pixelDensity(Math.min(6, canvasScale));
+
+  const graphics2 = p5.createGraphics(width, height);
+  graphics2.colorMode(p5.HSB);
+  p5.scale(canvasScale);
+  graphics2.pixelDensity(Math.min(6, canvasScale));
   const rotated = random.value() > 0.925;
   if (rotated) {
     graphics.translate(width, 0);
@@ -455,7 +460,6 @@ const sketch = ({ p5, width, height, styleWidth, styleHeight, exportFrame, play 
           });
           cube2.draw();
         }
-        cubeCount++;
         yield i++;
       }
     }
