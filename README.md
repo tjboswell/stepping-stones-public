@@ -5,14 +5,14 @@ Stepping Stones explores the idea that the whole is greater than the sum of its 
 ---------------
 
 Controls:
-Press 1-6 to change the scale of the canvas (1 = default, 2500px x 2500px, 6 = 15,000px x 15,000px)
-S (or double tap on mobile): Save output at current size
-C: Toggle cutout shapes visibility
-H: Toggle cutout outlines visibility
-B: Iterate border sizes (none, default, 1.5x, 2x, 3x)
-T: Toggle texture visibility
-F: Toggle fullscreen
-Add the url params x and y to set custom dimensions. For example, add &x=1500&y=500 for a 1500px x 500px image
+- Press 1-6 to change the scale of the canvas (1 = default, 2500px x 2500px, 6 = 15,000px x 15,000px)
+- S (or double tap on mobile): Save output at current size
+- C: Toggle cutout shapes visibility
+- H: Toggle cutout outlines visibility
+- B: Iterate border sizes (none, default, 1.5x, 2x, 3x)
+- T: Toggle texture visibility
+- F: Toggle fullscreen
+- Add the url params x and y to set custom dimensions. For example, add &x=1500&y=500 for a 1500px x 500px image
 
 ---------------
 
